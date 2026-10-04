@@ -1,0 +1,19 @@
+# Local backup copies made before editing a config.
+# arch-sync-back.sh already excludes these from syncs; this stops them from
+# being committed by hand, and from being restored onto a new machine.
+*.bak
+*.bak-*
+*.bak[0-9]*-*
+*.pre-*
+*.orig
+*.rej
+*.swp
+*~
+
+# NOTE: neovim/lazy-lock.json IS tracked on purpose - it pins plugin versions
+# so a fresh install reproduces the same setup. Do not add it here.
+
+# Runtime noise, in case a sync is ever pointed at the wrong place.
+.cache/
+node_modules/
+__pycache__/

@@ -1,0 +1,18 @@
+# aur.txt - AUR packages, grouped by section.
+#
+#   [core]  ALWAYS installed. Required for the setup (yay, powerlevel10k,
+#           i3lock with color support).
+#   other   Optional. The setup script asks whether you want each group.
+#
+# Lines starting with '#' are ignored.
+
+[core]
+yay
+zsh-theme-powerlevel10k
+i3lock-color
+
+[dev]
+postman-bin
+
+[apps]
+zoom
