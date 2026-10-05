@@ -17,6 +17,13 @@ A collection of dotfiles and setup scripts for Arch Linux, optimized for i3 + Po
     - `arch-sync-back.sh`: Pulls your live `~/.config` edits back into `arch/`.
     - `config-map.sh`: Shared mapping of `arch/<source>` -> `~/.config/<dest>` folders.
 
+## Screenshots
+<img width="1920" height="1080" alt="fastfetch" src="https://github.com/user-attachments/assets/f43b8bbe-59cf-48bd-8eb6-88f393c0ed3c" />
+<img width="1920" height="1080" alt="Desktop" src="https://github.com/user-attachments/assets/5d483012-754f-47dc-b81b-949ee7b4a2df" />
+<img width="1080" height="608" alt="image" src="https://github.com/user-attachments/assets/bce4c816-3954-4bdc-ba26-09263caaa20d" />
+
+
+
 ## Setup Instructions
 
 1.  **Clone the repository**:
